@@ -1,0 +1,37 @@
+{
+  "name": "anime-gan.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.7.4",
+    "bootstrap": "^4.5.0",
+    "gh-pages": "^2.2.0",
+    "pica": "^9.0.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://animegan.js.org/"
+}
